@@ -43,7 +43,7 @@ body {
 .corredor2 {
     background: url(./img/mega.png);
     position: absolute;
-    top: 80%;
+    top: 77%;
     left: 5%;
     width: calc(1591px / 11);
     height: 157px;
@@ -58,6 +58,94 @@ body {
 }
 
 @keyframes mover2 {
+    0% {transform: translateX(-100px);}
+    100% {transform: translateX(2000px);}
+}
+
+.corredor3 {
+    background: url(./img/Assassin_s_creed.png);
+    position: absolute;
+    top: 70%;
+    left: -10%;
+    width: calc(1000px / 8);
+    height: 133px;
+    overflow: hidden;
+    animation: correr3 1s steps(8) infinite,
+               mover3 6s linear infinite;
+}
+
+@keyframes correr3 {
+    0% {background-position: 0px;}
+    100% {background-position: -1000px;}
+}
+
+@keyframes mover3 {
+    0% {transform: translateX(-100px);}
+    100% {transform: translateX(2000px);}
+}
+
+.corredor4 {
+    background: url(./img/Cavaleiro\ \(2\).png);
+    position: absolute;
+    top: 77%;
+    left: -25%;
+    width: calc(2000px / 11);
+    height: 147px;
+    overflow: hidden;
+    animation: correr4 1s steps(11) infinite,
+               mover4 6s linear infinite;
+}
+
+@keyframes correr4 {
+    0% {background-position: -2000px;}
+    100% {background-position: 0px;}
+}
+
+@keyframes mover4 {
+    0% {transform: translateX(-100px);}
+    100% {transform: translateX(2000px);}
+}
+
+.Dragao {
+    background: url(./img/Dragão.png);
+    position: absolute;
+    top: 30%;
+    left: -40%;
+    width: calc(563px / 4);
+    height: 99px;
+    overflow: hidden;
+    animation: correr5 0.7s steps(4) infinite,
+               mover5 5s linear infinite;
+}
+
+@keyframes correr5 {
+    0% {background-position: 0px;}
+    100% {background-position: -563px;}
+}
+
+@keyframes mover5 {
+    0% {transform: translateX(-100px);}
+    100% {transform: translateX(2000px);}
+}
+
+.seiya {
+    background: url(./img/seiya.png);
+    position: absolute;
+    top: 77%;
+    left: -35%;
+    width: calc(773px / 8);
+    height: 105px;
+    overflow: hidden;
+    animation: correr6 0.7s steps(8) infinite,
+               mover6 6s linear infinite;
+}
+
+@keyframes correr6 {
+    0% {background-position: 0px;}
+    100% {background-position: -773px;}
+}
+
+@keyframes mover6 {
     0% {transform: translateX(-100px);}
     100% {transform: translateX(2000px);}
 }
